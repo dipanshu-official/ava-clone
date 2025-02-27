@@ -8,10 +8,10 @@ const Header = () => {
 const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <div className='flex justify-between items-center lg:py-11 py-2   px-10 lg:px-30'>
+        <div className='flex justify-between items-center lg:py-11 py-2 max-w-7xl mx-auto  px-10 '>
              {/* hambugger  */}
              <button
-                 className='text-white font-bold absolute top-4 left-0 '
+                 className='text-white font-bold absolute top-4 left-0 md:hidden block '
                  onClick={() => {
                    setIsOpen(!isOpen)
                  }}
@@ -19,8 +19,8 @@ const [isOpen, setIsOpen] = useState(false)
                 {isOpen ? <X size={30} /> : <Menu size={30} /> }
 
                 </button>
-                <div>
-                    {isOpen && <ul className=' absolute flex-col items-center bg-black  gap-6 font-normal text-[20px]  md:hidden'>
+                <div className=''>
+                    {isOpen && <ul className=' absolute flex-col items-center bg-black  gap-6 font-normal text-[20px]  '>
                     <li>About</li>
                     <li>Features</li>
                     <li>Resources</li>

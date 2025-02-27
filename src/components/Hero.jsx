@@ -3,7 +3,7 @@ import mainscreen from '../assets/Docs/mainscreen.png'
 
 const Hero = () => {
     return (
-        <div className='lg:px-0 md:px-10 px-5  '>
+        <div className='lg:px-0 md:px-10 px-5 max-w-7xl mx-auto '>
             <div>
                 <p className='text-center text-[#2770FF] font-medium text-2xl '>Meet AVA</p>
             </div>

@@ -8,7 +8,7 @@ import AfterLogin from './screen/AfterLogin';
 
 const App = () => {
   return (
-    <div>
+    <div >
       <Router>
         <Routes>
           <Route path='/' element={<Demo />} />

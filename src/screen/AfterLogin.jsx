@@ -14,7 +14,7 @@ const AfterLogin = () => {
     const [isOpen, setIsopen] = useState(false)
 
     return (
-        <div className='min-h-screen bg-[#F8FAFB] flex '>
+        <div className='min-h-screen bg-[#F8FAFB] flex max-w-7xl mx-auto'>
 
             <button
                 className='text-black text-xl md:hidden block absolute top-4  '

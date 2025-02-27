@@ -2,7 +2,7 @@ import React from 'react'
 
 const Uses = () => {
   return (
-    <div className='lg:mt-20 md:mt-10 mt-5'>
+    <div className='lg:mt-20 md:mt-10 mt-5 max-w-7xl mx-auto'>
         <div className='mt-2'>
             <p className='text-[#2770FF] font-medium text-base text-center'>Who uses AVA?</p>
         </div>

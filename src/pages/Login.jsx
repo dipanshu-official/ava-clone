@@ -19,7 +19,7 @@ const Login = () => {
 
 
     return (
-        <div className='h-screen flex items-center justify-center   '>
+        <div className='h-screen flex items-center justify-center max-w-7xl mx-auto  '>
             <div className='bg-white text-black lg:px-15 px-10 lg:py-6 py-0'>
                 <div className='flex items-center gap-4 '>
 
