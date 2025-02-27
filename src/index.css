@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
+
 body{
   background-color: #000000;
   color: #FFFFFF;
+  font-family:poppins ;
 }
 
 .hide-scrollbar::-webkit-scrollbar {

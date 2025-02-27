@@ -47,7 +47,7 @@ const Card = () => {
         },
     ]
   return (
-    <div className='grid grid-cols-3 items-center gap-6 pl-4 pr-[89px]'>
+    <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 items-center gap-6 pl-4 lg:pr-[89px] md:pr-10 pr-5'>
         {iteam.map((data , index) =>(
             <div className='px-4 pt-6 border border-[#9CA3AF] h-[180px] rounded-lg'>
             <div 

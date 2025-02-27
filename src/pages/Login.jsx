@@ -19,8 +19,8 @@ const Login = () => {
 
 
     return (
-        <div className='h-screen flex items-center justify-center  '>
-            <div className='bg-white text-black px-15 py-6'>
+        <div className='h-screen flex items-center justify-center   '>
+            <div className='bg-white text-black lg:px-15 px-10 lg:py-6 py-0'>
                 <div className='flex items-center gap-4 '>
 
                     <img src={logo} className='bg-[#2770FF] rounded-full' alt="" />

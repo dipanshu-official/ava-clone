@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import Uses from '../components/Uses'
+import Instruction from '../components/Instruction'
 
 
 const Demo = () => {
@@ -11,6 +12,7 @@ const Demo = () => {
         <Header/>
         <Hero/>
         <Uses/>
+        <Instruction/>
         <Footer/>
 
     </div>

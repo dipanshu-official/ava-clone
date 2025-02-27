@@ -2,14 +2,14 @@ import React from 'react'
 
 const Uses = () => {
   return (
-    <div className='mt-20'>
+    <div className='lg:mt-20 md:mt-10 mt-5'>
         <div className='mt-2'>
-            <p className='text-[#2770FF] font-medium text-2xl text-center'>Who uses AVA?</p>
+            <p className='text-[#2770FF] font-medium text-base text-center'>Who uses AVA?</p>
         </div>
         <div className='mt-2'>
-            <h1 className='text-center font-medium text-[40px]'>Built For Everyone</h1>
+            <h1 className='text-center font-medium lg:text-[40px] text-base'>Built For Everyone</h1>
         </div>
-        <div className='overflow-x-hidden mx-30  flex items-center gap-8 font-medium text-[32px] text-[#767676]  justify-center'>
+        <div className='overflow-x-hidden mx-30  flex items-center gap-8 font-medium text-base lg:text-[32px] text-[#767676]  justify-center'>
             <p>Student</p>
             <p>Blogger</p>
             <p>Founders</p>
@@ -26,11 +26,11 @@ const Uses = () => {
             
 
         </div>
-        <div className='mt-20'>
+        <div className='lg:mt-20 md:mt-10 mt-5'>
             <p className='text-[#2770FF] font-medium text-2xl text-center'>How IT works?</p>
         </div>
         <div className='mt-2'>
-            <h1 className='text-center font-medium text-[40px]'>Simple yet smart</h1>
+            <h1 className='text-center font-medium lg:text-[40px] md:text-3xl text-2xl'>Simple yet smart</h1>
         </div>
     </div>
   )
